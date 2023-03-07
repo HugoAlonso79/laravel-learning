@@ -5,6 +5,6 @@
 @include('fragments._errors-form')
 <form action="{{ route('post.update', $post->id) }}" method="post" enctype="multipart/form-data">@csrf
     @method('PATCH')
-    @include('fragments._form', ["task" => "edit"])
+    @include('dashboard.post._form', ["task" => "edit"])
 </form>    
 @endsection

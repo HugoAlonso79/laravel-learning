@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard\PostController;
+use App\Http\Controllers\Dashboard\CategoryController;
 use App\Http\Controllers\Dashboard\TestController;
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,7 @@ use App\Http\Controllers\Dashboard\TestController;
 
 Route::get('/',[TestController::class, 'index']);
 Route::resource('post', PostController::class);
+Route::resource('category', CategoryController::class);
 
 // no son necesarias si se declara lo de arriba
 // Route::get('post/', [PostController::class, 'index']);
