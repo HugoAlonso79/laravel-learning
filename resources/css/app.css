@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.table{
+    @apply table-auto w-full
+}
+
+.table th{
+    @apply px-6 py-2 bg-gray-800 font-medium text-gray-200 uppercase border leading-4 tracking-widest
+}
+
+.table tr{
+    @apply border bg-gray-700 text-gray-200
+}
+
+.table td{
+    @apply px-6 py-4 whitespace-normal
+}
+
+.form-control{
+    @apply block rounded-sm shadow-sm bg-purple-50 w-full
+}
