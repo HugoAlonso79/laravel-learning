@@ -29,7 +29,7 @@ class PostSeeder extends Seeder
                 'slug' => Str::slug($title),
                 'content' => "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, distinctio nihil officia rerum ipsam sunt debitis veritatis rem consectetur, totam maiores consequuntur. Autem nesciunt excepturi cum repellat, sint exercitationem. Hic!</p>",
                 'category_id' => $c->id,
-                'description' => "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, distinctio nihil officia rerum ipsam sunt debitis veritatis rem consectetur, totam maiores consequuntur. Autem nesciunt excepturi cum repellat, sint exercitationem. Hic!</p>",
+                'description' => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, distinctio nihil officia rerum ipsam sunt debitis veritatis rem consectetur, totam maiores consequuntur. Autem nesciunt excepturi cum repellat, sint exercitationem. Hic!",
                 'posted' => 'yes'
             ]);
         }

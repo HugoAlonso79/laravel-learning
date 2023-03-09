@@ -17,7 +17,7 @@ class CategorySeeder extends Seeder
         DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         Category::truncate();
         DB::statement('SET FOREIGN_KEY_CHECKS=1;');
-        for ($i=0; $i < 10; $i++) { 
+        for ($i=0; $i < 20; $i++) { 
             Category::create(
                 [
                     'title' => "Categoria $i",
